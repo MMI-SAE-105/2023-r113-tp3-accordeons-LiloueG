@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr"  x-data="{ menuIsOpen1: false}">
+<html lang="fr"  x-data="{ menuIsOpen1: false, menuIsOpen2: false, menuIsOpen3: false}">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,12 +15,12 @@
         <p x-show="menuIsOpen1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae culpa quis atque tenetur quidem rerum deleniti facere eaque doloribus enim! Ab illo modi est aperiam dolor vel iusto aliquid repellendus?</p>
       </section>
       <section>
-        <button aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen">bouton 2</button>
-        <p x-show="menuIsOpen">Rerum et dolore molestiae praesentium ipsam exercitationem, magnam animi rem quis ipsum obcaecati sed, laborum dolor officia cupiditate eius commodi doloribus ut perspiciatis minima. Qui incidunt inventore ad distinctio quaerat.</p>
+        <button aria-controls="mainNav" @click="menuIsOpen2 = !menuIsOpen2">bouton 2</button>
+        <p x-show="menuIsOpen2">Rerum et dolore molestiae praesentium ipsam exercitationem, magnam animi rem quis ipsum obcaecati sed, laborum dolor officia cupiditate eius commodi doloribus ut perspiciatis minima. Qui incidunt inventore ad distinctio quaerat.</p>
       </section>
       <section>
-        <button aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen">bouton 3</button>
-        <p x-show="menuIsOpen">Hic, vitae praesentium libero dicta voluptatum veritatis perspiciatis ipsam, error dolor placeat adipisci ipsum quibusdam modi itaque sunt, voluptatem nesciunt cumque veniam sit ex nisi? Voluptas repudiandae dicta eaque iure!</p>
+        <button aria-controls="mainNav" @click="menuIsOpen3 = !menuIsOpen3">bouton 3</button>
+        <p x-show="menuIsOpen3">Hic, vitae praesentium libero dicta voluptatum veritatis perspiciatis ipsam, error dolor placeat adipisci ipsum quibusdam modi itaque sunt, voluptatem nesciunt cumque veniam sit ex nisi? Voluptas repudiandae dicta eaque iure!</p>
       </section>
     </div>
   </body>
