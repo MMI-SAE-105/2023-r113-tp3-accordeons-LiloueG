@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr"  x-data="{ menuIsOpen: false}">
+<html lang="fr"  x-data="{ menuIsOpen1: false}">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,8 +11,8 @@
     <h1>Accordéon avec des booléens</h1>
     <div class="accordeon">
       <section>
-        <button aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen">bouton 1</button>
-        <p x-show="menuIsOpen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae culpa quis atque tenetur quidem rerum deleniti facere eaque doloribus enim! Ab illo modi est aperiam dolor vel iusto aliquid repellendus?</p>
+        <button aria-controls="mainNav" @click="menuIsOpen1 = !menuIsOpen1">bouton 1</button>
+        <p x-show="menuIsOpen1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae culpa quis atque tenetur quidem rerum deleniti facere eaque doloribus enim! Ab illo modi est aperiam dolor vel iusto aliquid repellendus?</p>
       </section>
       <section>
         <button aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen">bouton 2</button>
