@@ -15,12 +15,12 @@
         <p x-show="menuIsOpen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae culpa quis atque tenetur quidem rerum deleniti facere eaque doloribus enim! Ab illo modi est aperiam dolor vel iusto aliquid repellendus?</p>
       </section>
       <section>
-        <button>bouton 2</button>
-        <p>Rerum et dolore molestiae praesentium ipsam exercitationem, magnam animi rem quis ipsum obcaecati sed, laborum dolor officia cupiditate eius commodi doloribus ut perspiciatis minima. Qui incidunt inventore ad distinctio quaerat.</p>
+        <button aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen">bouton 2</button>
+        <p x-show="menuIsOpen">Rerum et dolore molestiae praesentium ipsam exercitationem, magnam animi rem quis ipsum obcaecati sed, laborum dolor officia cupiditate eius commodi doloribus ut perspiciatis minima. Qui incidunt inventore ad distinctio quaerat.</p>
       </section>
       <section>
-        <button>bouton 3</button>
-        <p>Hic, vitae praesentium libero dicta voluptatum veritatis perspiciatis ipsam, error dolor placeat adipisci ipsum quibusdam modi itaque sunt, voluptatem nesciunt cumque veniam sit ex nisi? Voluptas repudiandae dicta eaque iure!</p>
+        <button aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen">bouton 3</button>
+        <p x-show="menuIsOpen">Hic, vitae praesentium libero dicta voluptatum veritatis perspiciatis ipsam, error dolor placeat adipisci ipsum quibusdam modi itaque sunt, voluptatem nesciunt cumque veniam sit ex nisi? Voluptas repudiandae dicta eaque iure!</p>
       </section>
     </div>
   </body>
