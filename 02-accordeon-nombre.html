@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" x-data="{menuIsOpen: 0}">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,10 +9,10 @@
   </head>
   <body>
     <h1>Accordéon mémorisant par un nombre l'élèment ouvert</h1>
-    <div class="accordeon">
+    <div class="accordeon" x-data="{menuIsOpen: 0}">
       <section>
-        <button @click="txtIsOpen = (txtIsOpen === 1) ? 0 : 1">bouton 1</button>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim porro deleniti ipsum error numquam officiis modi, omnis quibusdam sunt dignissimos ut labore illo minus amet iste nisi, a praesentium necessitatibus?</p>
+        <button @click="menuIsOpen =  1">bouton 1</button>
+        <p x-show="menuIsOpen === 1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim porro deleniti ipsum error numquam officiis modi, omnis quibusdam sunt dignissimos ut labore illo minus amet iste nisi, a praesentium necessitatibus?</p>
       </section>
       <section>
         <button>bouton 2</button>
