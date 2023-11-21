@@ -43,7 +43,7 @@
     /* pour espacer le texte, padding de 10px */
     padding: 10px;
     /* pour que les éléments soient alignés verticalement */
-   vertical-align: auto;
+   vertical-align: auto ;
     /* espace entre les éléments */
     padding: 0%;
 }
