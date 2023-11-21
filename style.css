@@ -31,6 +31,7 @@
 #accordeon li figure {
     /* pour éviter les marges par défaut */
     /* pour que les éléments soient alignés horizontalement */
+    display: flex;
     /* largeur de l'élément intrérieur de 317px (= déplié) */
 }
 
