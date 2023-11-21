@@ -45,6 +45,7 @@
     /* pour que les éléments soient alignés verticalement */
    vertical-align: auto;
     /* espace entre les éléments */
+    padding: 0%;
 }
 
 /* Sur tous les enfants de figcation */
