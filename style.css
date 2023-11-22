@@ -13,6 +13,7 @@
     /* pour cacher le contenu dépassant de l'élément */
     overflow: hidden;
     /* pour l'animation, transition sur width */
+    transition: width 500ms;
     /* couleur de fond #eee */
     background-color: #eee;
     /* pour enlever les puces */
