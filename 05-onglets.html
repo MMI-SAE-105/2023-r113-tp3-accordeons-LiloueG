@@ -11,12 +11,12 @@
     <h1>Onglets</h1>
     <div id="onglets" x-data="{ouvert : 0}">
       <ul role="tablist">
-        <li role="tab" @click= "ouvert = 1" >Onglet 1</li>
-        <li role="tab"@click= "ouvert = 2">Onglet 2</li>
-        <li role="tab"@click= "ouvert = 3">Onglet 3</li>
+        <li role="tab" @click= "ouvert = 1" :class="{actif: ouvert === 1}">Onglet 1</li>
+        <li role="tab" @click= "ouvert = 2" :class="{actif: ouvert === 2}">Onglet 2</li>
+        <li role="tab" @click= "ouvert = 3" :class="{actif: ouvert === 3}">Onglet 3</li>
       </ul>
     </div>
-    <div role="tabpanel" x-show="ouvert === 1">
+    <div role="tabpanel" :class="{actif:ouvert = 1}">
         <h1>Panneau 1</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil atque ex, natus excepturi quo ipsum doloribus necessitatibus, provident quibusdam laborum aspernatur nam at quos voluptate sequi maiores ducimus nostrum molestias.</p>
     </div>
