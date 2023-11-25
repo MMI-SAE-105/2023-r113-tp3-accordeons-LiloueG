@@ -14,8 +14,8 @@
     <div id="onglets">
       <ul role="tablist">
         <li role="tab" @click= "ouvert = (ouvert===1)?0:1" :class="{actif: ouvert === 1}">Onglet 1</li>
-        <li role="tab" @click= "ouvert = (ouvert===1)?0:2" :class="{actif: ouvert === 2}">Onglet 2</li>
-        <li role="tab" @click= "ouvert = (ouvert===1)?0:3" :class="{actif: ouvert === 3}">Onglet 3</li>
+        <li role="tab" @click= "ouvert = (ouvert===2)?0:2" :class="{actif: ouvert === 2}">Onglet 2</li>
+        <li role="tab" @click= "ouvert = (ouvert===3)?0:3" :class="{actif: ouvert === 3}">Onglet 3</li>
       </ul>
     </div>
     <div role="tabpanel" x-show="ouvert === 1">
