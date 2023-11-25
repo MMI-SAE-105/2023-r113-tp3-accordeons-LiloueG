@@ -26,3 +26,11 @@ li[role=tab] {
     background-color: #f4ba77;
     color: #090909;
   }
+
+  [role=tabpanel] {
+    opacity: 0;
+  }
+
+  [role=tabpanel].actif {
+    opacity: 1;
+  }
