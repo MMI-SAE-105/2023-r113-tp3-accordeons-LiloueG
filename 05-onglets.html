@@ -18,17 +18,19 @@
         <li role="tab" @click= "ouvert = (ouvert===3)?0:3" :class="{actif: ouvert === 3}">Onglet 3</li>
       </ul>
     </div>
-    <div role="tabpanel" x-show="ouvert === 1">
-        <h1>Panneau 1</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil atque ex, natus excepturi quo ipsum doloribus necessitatibus, provident quibusdam laborum aspernatur nam at quos voluptate sequi maiores ducimus nostrum molestias.</p>
-    </div>
-    <div role="tabpanel" x-show="ouvert === 2">
-        <h1>Panneau 2</h1>
-        <p>Accusamus qui quibusdam ducimus, quidem ratione totam reprehenderit? Non blanditiis accusamus beatae earum. Cum ipsum exercitationem fuga consectetur sequi, odit nobis vero beatae nostrum est a tenetur temporibus commodi quis.</p>
-    </div>
-    <div role="tabpanel" x-show="ouvert === 3">
-        <h1>Panneau 3</h1>
-        <p>Saepe, tempora repellendus. Quasi earum nobis ut debitis et perferendis aperiam maxime explicabo quidem facere eligendi ducimus laborum impedit harum, iusto corporis. At, excepturi alias perferendis repellat eveniet molestias id!</p>
+    <div id="parentPanel">
+      <div role="tabpanel" x-show="ouvert === 1">
+          <h1>Panneau 1</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil atque ex, natus excepturi quo ipsum doloribus necessitatibus, provident quibusdam laborum aspernatur nam at quos voluptate sequi maiores ducimus nostrum molestias.</p>
+      </div>
+      <div role="tabpanel" x-show="ouvert === 2">
+          <h1>Panneau 2</h1>
+          <p>Accusamus qui quibusdam ducimus, quidem ratione totam reprehenderit? Non blanditiis accusamus beatae earum. Cum ipsum exercitationem fuga consectetur sequi, odit nobis vero beatae nostrum est a tenetur temporibus commodi quis.</p>
+      </div>
+      <div role="tabpanel" x-show="ouvert === 3">
+          <h1>Panneau 3</h1>
+          <p>Saepe, tempora repellendus. Quasi earum nobis ut debitis et perferendis aperiam maxime explicabo quidem facere eligendi ducimus laborum impedit harum, iusto corporis. At, excepturi alias perferendis repellat eveniet molestias id!</p>
+      </div>
     </div>
   </body>
 </html>
