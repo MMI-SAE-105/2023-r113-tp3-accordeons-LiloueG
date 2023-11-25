@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr" x-data="{ouvert : 0}">
-  
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -18,7 +17,7 @@
         <li role="tab" @click= "ouvert = 3" :class="{actif: ouvert === 3}">Onglet 3</li>
       </ul>
     </div>
-    <div role="tabpanel" :class="{actif:ouvert = 1}">
+    <div role="tabpanel" x-show="ouvert === 1">
         <h1>Panneau 1</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil atque ex, natus excepturi quo ipsum doloribus necessitatibus, provident quibusdam laborum aspernatur nam at quos voluptate sequi maiores ducimus nostrum molestias.</p>
     </div>
