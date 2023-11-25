@@ -16,3 +16,9 @@ h2, p {
   p {
     margin: 0px 5px;
 }
+
+#parentPanel>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
