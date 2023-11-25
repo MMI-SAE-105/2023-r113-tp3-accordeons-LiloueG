@@ -17,3 +17,12 @@ h2, p {
     margin: 0px 5px;
 }
 
+
+li[role=tab] {
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f4ba77;
+    color: #090909;
+  }
