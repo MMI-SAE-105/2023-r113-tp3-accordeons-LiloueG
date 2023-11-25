@@ -3,3 +3,9 @@ div[role]{
     height: 400px;
     width: 300px;
 }
+
+h2, p {
+      padding: 0;
+      margin: 0;
+ }
+ 
